@@ -51,4 +51,39 @@ export const apis: Api[] = [
     label: 'Users',
     url: 'https://jsonplaceholder.typicode.com/users',
   },
+  {
+    id: 11,
+    label: 'GitHub Jobs',
+    url: 'https://jobs.github.com/positions.json?description=api',
+  },
+  {
+    id: 12,
+    label: 'Universities List',
+    url: 'http://universities.hipolabs.com/search?country=India',
+  },
+  {
+    id: 13,
+    label: 'Universities List',
+    url: 'http://universities.hipolabs.com/search?country=India',
+  },
+  {
+    id: 14,
+    label: 'Anime List',
+    url: 'https://api.jikan.moe/v3/search/anime?q=naruto',
+  },
+  {
+    id: 15,
+    label: 'Countries',
+    url: 'https://restcountries.eu/rest/v2/all',
+  },
+  {
+    id: 16,
+    label: 'Public Apis',
+    url: 'https://api.publicapis.org/entries',
+  },
+  {
+    id: 17,
+    label: 'Pokemon',
+    url: 'https://pokeapi.co/api/v2/pokemon?limit=100&offset=200',
+  },
 ];

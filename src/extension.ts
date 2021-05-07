@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
 import { apis } from './apis';
-import { Api } from './types';
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand('api-hub.getApi', () => {
@@ -15,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
       a.label.localeCompare(b.label, undefined, { caseFirst: 'upper' })
     );
 
-    quickPick.items = sortedApis.map((api: Api) => ({ label: api.label }));
+    quickPick.items = sortedApis.map((api) => ({ label: api.label }));
 
     // select item
     quickPick.onDidChangeSelection(([item]) => {
@@ -27,7 +26,6 @@ export function activate(context: vscode.ExtensionContext) {
 
               edit.insert(position, api.url);
             });
-            vscode.window.showInformationMessage(api.url);
           }
         });
         quickPick.dispose();
