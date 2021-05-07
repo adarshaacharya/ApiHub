@@ -13,3 +13,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Extension released with searching extension from command palette.
 - 17 Apis url added.
 - Logo of extension added.
+
+## [0.1.1] - 2021-05-07
+### Refactored
+- More clear and concise docs
+- Clear contributing guidelines
