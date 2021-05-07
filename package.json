@@ -1,7 +1,7 @@
 {
 	"name": "api-hub",
 	"displayName": "Api Hub",
-	"description": "VsCode extension to get free third party api url on different categories for quick testing.",
+	"description": "VS Code extension to get free third party api url on different categories for quick testing.",
 	"version": "0.1.0",
 	"publisher": "AadarshaAcharya",
 	"icon": "assets/logo.png",

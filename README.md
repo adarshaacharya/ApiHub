@@ -5,22 +5,34 @@
 </p>
 
 <p align="center">
-
-[![Version](https://vsmarketplacebadge.apphb.com/version/aadarshaacharya.api-hub.svg)](https://marketplace.visualstudio.com/items?itemName=aadarshaacharya.api-hub)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/aadarshaacharya.api-hub.svg)](https://marketplace.visualstudio.com/items?itemName=aadarshaacharya.api-hub)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/aadarshaacharya.api-hub.svg)](https://marketplace.visualstudio.com/items?itemName=aadarshaacharya.api-hub)
+<a href="https://marketplace.visualstudio.com/items?itemName=aadarshaacharya.api-hub"><img src="https://vsmarketplacebadge.apphb.com/version/aadarshaacharya.api-hub.svg" alt="version"/></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=aadarshaacharya.api-hub"><img src="https://vsmarketplacebadge.apphb.com/installs/aadarshaacharya.api-hub.svg" alt="installs"/></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=aadarshaacharya.api-hub"><img src="https://vsmarketplacebadge.apphb.com/rating-short/aadarshaacharya.api-hub.svg" alt="rating"/></a>
 
 </p>
 
 <p align="center">
-VsCode extension to get free third party api url on different categories for quick testing.
+VS Code extension to get free third party api url on different categories for quick testing.
 </p>
 
 ## Screenshot
 
 <img src="https://raw.githubusercontent.com/adarshaacharya/ApiHub/main/assets/demo.gif" alt="demo"/>
 
-## 📝 License
+## Instruction
+
+- Open text editor in VS Code and put keyboard cursor where you want api url to be in.
+- Open Command Palette in VS Code by `Ctrl+Shift+P` command.
+- Search for `Api Hub` and press `Enter`
+- You'll be shown categories like `Posts, Jokes, Todos`
+- Search the categories select one of them.
+- You'll be given url of the api on the Vs Code editor.
+
+## Contributing and Feedback
+
+If you are interested in providing feedback or contributing directly to the code base, please check the document [Contributing to Api Hub](https://github.com/adarshaacharya/ApiHub/blob/main/CONTRIBUTING.md).
+
+## License
 
 Copyright © 2020 [Aadarsha Acharya](https://github.com/adarshaacharya).<br />
-This project is [MIT](https://github.com/adarshaacharya/ApiHub/blob/main/LICENSE) licensed.
+This extension is licensed under [MIT License](https://github.com/adarshaacharya/ApiHub/blob/main/LICENSE).
