@@ -11,6 +11,13 @@
 
 Also, [check this video](https://www.youtube.com/watch?v=4tk0Ak-dEjs) by Ben Awad if you are new to extension development.
 
+## Directory Structure
+
+There are two important folders that you should care about `src/extension.ts` and `src/apis.ts`.
+
+- `extension.ts` : Main logic and functions of extension
+- `apis.ts` : List of all apis
+
 ## Contribution Guidelines
 
 - If you're planning to implement a new feature I will recommend you to discuss with me before you start coding so you won't end up working on something that I don't want to implement. Create an Issue with proper name and content for discussion.
@@ -18,5 +25,5 @@ Also, [check this video](https://www.youtube.com/watch?v=4tk0Ak-dEjs) by Ben Awa
 
 - For Contributing to this project or any project on GitHub
   1. Fork project.
-  2. Create a branch with the name of feature that you're working on (e.g. `category-select`).
+  2. Create a branch with the name of feature that you're working on (e.g. if you're adding new api `new-api`).
   3. Once you're done coding create a merge request from your new branch to my `main`.

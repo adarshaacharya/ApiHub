@@ -30,7 +30,11 @@ VS Code extension to get free third party api url on different categories for qu
 
 ## Contributing and Feedback
 
-If you are interested in providing feedback or contributing directly to the code base, please check the document [Contributing to Api Hub](https://github.com/adarshaacharya/ApiHub/blob/main/CONTRIBUTING.md).
+- If you just want to add new api then you can directly [edit here](https://github.com/adarshaacharya/ApiHub/edit/main/src/apis.ts).
+
+- If you find any issues on project or give suggestion to add new api that you know you can [open the issue](https://github.com/adarshaacharya/ApiHub/issues/new) giving the url of api.
+
+- If you are interested in providing feedback or contributing directly to the code base, please check the document [Contributing to Api Hub](https://github.com/adarshaacharya/ApiHub/blob/main/CONTRIBUTING.md).
 
 ## License
 
