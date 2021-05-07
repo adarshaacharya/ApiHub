@@ -2,7 +2,12 @@
 	"name": "api-hub",
 	"displayName": "Api Hub",
 	"description": "Get free third party api right into your editor for quick testing.",
-	"version": "0.0.1",
+	"version": "0.1.0",
+	"publisher": "AadarshaAcharya",
+	"icon": "https://raw.githubusercontent.com/adarshaacharya/ApiHub/main/assets/logo.png",
+	"repository": {
+		"url": "https://github.com/adarshaacharya/ApiHub"
+	},
 	"engines": {
 		"vscode": "^1.56.0"
 	},
