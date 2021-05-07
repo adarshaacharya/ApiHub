@@ -1,4 +1,5 @@
 export interface Api {
-  label : string
-  url : string
+  id: number;
+  label: string;
+  url: string;
 }

@@ -3,19 +3,33 @@ import { apis } from './apis';
 import { Api } from './types';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "api-hub" is now active!');
-
   let disposable = vscode.commands.registerCommand('api-hub.getApi', () => {
-    vscode.window.showInformationMessage('Get Api!');
+    const editor = vscode.window.activeTextEditor;
+    if (!editor) {
+      vscode.window.showInformationMessage("Editor doesn't exists!");
+      return;
+    }
 
     const quickPick = vscode.window.createQuickPick();
-    quickPick.items = apis.map((api: Api) => ({ label: api.label }));
+    const sortedApis = apis.sort((a, b) =>
+      a.label.localeCompare(b.label, undefined, { caseFirst: 'upper' })
+    );
 
-    // when item os selected
+    quickPick.items = sortedApis.map((api: Api) => ({ label: api.label }));
+
+    // select item
     quickPick.onDidChangeSelection(([item]) => {
       if (item) {
-        vscode.window.showInformationMessage(item.label);
+        apis.map((api) => {
+          if (api.label === item.label) {
+            editor.edit((edit) => {
+              const position = editor.selection.active;
 
+              edit.insert(position, api.url);
+            });
+            vscode.window.showInformationMessage(api.url);
+          }
+        });
         quickPick.dispose();
       }
     });
