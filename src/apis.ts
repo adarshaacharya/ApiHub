@@ -4,7 +4,7 @@ export const apis: Api[] = [
   {
     id: 1,
     label: 'Photos',
-    url: 'https://jsonplaceholder.typicode.com/photos',
+    url: 'https://www.virustotal.com/',
   },
   {
     id: 2,
